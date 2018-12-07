@@ -311,12 +311,36 @@ contract ERC20Detailed is IERC20 {
 }
 
 /**
+ * @title Burnable Token
+ * @dev Token that can be irreversibly burned (destroyed).
+ */
+contract ERC20Burnable is ERC20 {
+    /**
+     * @dev Burns a specific amount of tokens.
+     * @param value The amount of token to be burned.
+     */
+    function burn(uint256 value) public {
+        _burn(msg.sender, value);
+    }
+
+    /**
+     * @dev Burns a specific amount of tokens from the target address and decrements allowance
+     * @param from address The address which you want to send tokens from
+     * @param value uint256 The amount of token to be burned
+     */
+    function burnFrom(address from, uint256 value) public {
+        _burnFrom(from, value);
+    }
+}
+
+/** Below this is the actual token deploymet code **/
+/**
  * @title LedgeriumToken
  * @dev Very simple ERC20 Token example, where all tokens are pre-assigned to the creator.
  * Note they can later distribute these tokens as they wish using `transfer` and other
  * `ERC20` functions.
  */
-contract LedgeriumToken is ERC20, ERC20Detailed {
+contract LedgeriumToken is ERC20Burnable, ERC20Detailed {
     uint256 public constant INITIAL_SUPPLY = 15000000000000000;
 
     /**
