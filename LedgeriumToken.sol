@@ -356,7 +356,7 @@ contract ERC20Detailed is IERC20 {
  * Note they can later distribute these tokens as they wish using `transfer` and other
  * `ERC20` functions.
  */
-contract LedgeriumToken is ERC20Detailed {
+contract LedgeriumToken is ERC20, ERC20Detailed {
     using SafeERC20 for ERC20;
     uint256 public constant INITIAL_SUPPLY = 15000000000000000;
     /**
