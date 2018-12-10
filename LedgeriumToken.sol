@@ -1,6 +1,9 @@
 pragma solidity ^0.4.24;
 
-/* this is the official contract deployed for XLG token */
+/**
+* this is the official contract deployed for XLG token 
+* all code is pulled from the open-zeplin github and then flattened into one file. 
+*/
 
 /**
  * @title SafeMath
@@ -89,6 +92,42 @@ interface IERC20 {
 }
 
 /**
+ * @title SafeERC20
+ * @dev Wrappers around ERC20 operations that throw on failure.
+ * To use this library you can add a `using SafeERC20 for ERC20;` statement to your contract,
+ * which allows you to call the safe operations as `token.safeTransfer(...)`, etc.
+ */
+library SafeERC20 {
+    using SafeMath for uint256;
+
+    function safeTransfer(IERC20 token, address to, uint256 value) internal {
+        require(token.transfer(to, value));
+    }
+
+    function safeTransferFrom(IERC20 token, address from, address to, uint256 value) internal {
+        require(token.transferFrom(from, to, value));
+    }
+
+    function safeApprove(IERC20 token, address spender, uint256 value) internal {
+        // safeApprove should only be called when setting an initial allowance,
+        // or when resetting it to zero. To increase and decrease it, use
+        // 'safeIncreaseAllowance' and 'safeDecreaseAllowance'
+        require((value == 0) || (token.allowance(msg.sender, spender) == 0));
+        require(token.approve(spender, value));
+    }
+
+    function safeIncreaseAllowance(IERC20 token, address spender, uint256 value) internal {
+        uint256 newAllowance = token.allowance(address(this), spender).add(value);
+        require(token.approve(spender, newAllowance));
+    }
+
+    function safeDecreaseAllowance(IERC20 token, address spender, uint256 value) internal {
+        uint256 newAllowance = token.allowance(address(this), spender).sub(value);
+        require(token.approve(spender, newAllowance));
+    }
+}
+
+/**
  * @title Standard ERC20 token
  *
  * @dev Implementation of the basic standard token.
@@ -101,7 +140,6 @@ interface IERC20 {
  */
 contract ERC20 is IERC20 {
     using SafeMath for uint256;
-
     mapping (address => uint256) private _balances;
 
     mapping (address => mapping (address => uint256)) private _allowed;
@@ -310,38 +348,20 @@ contract ERC20Detailed is IERC20 {
     }
 }
 
-/**
- * @title Burnable Token
- * @dev Token that can be irreversibly burned (destroyed).
- */
-contract ERC20Burnable is ERC20 {
-    /**
-     * @dev Burns a specific amount of tokens.
-     * @param value The amount of token to be burned.
-     */
-    function burn(uint256 value) public {
-        _burn(msg.sender, value);
-    }
-
-    /**
-     * @dev Burns a specific amount of tokens from the target address and decrements allowance
-     * @param from address The address which you want to send tokens from
-     * @param value uint256 The amount of token to be burned
-     */
-    function burnFrom(address from, uint256 value) public {
-        _burnFrom(from, value);
-    }
-}
-
 /** Below this is the actual token deploymet code **/
 /**
  * @title LedgeriumToken
  * @dev Very simple ERC20 Token example, where all tokens are pre-assigned to the creator.
+ * taken directly from open-zepplin examples.
  * Note they can later distribute these tokens as they wish using `transfer` and other
  * `ERC20` functions.
  */
-contract LedgeriumToken is ERC20Burnable, ERC20Detailed {
+contract LedgeriumToken is ERC20Detailed {
+    using SafeERC20 for ERC20;
     uint256 public constant INITIAL_SUPPLY = 15000000000000000;
+    /**
+    * Total during ERC-20 stage is 150 million. 
+    */
 
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
