@@ -342,7 +342,6 @@ contract ERC20Detailed is IERC20 {
  * `ERC20` functions.
  */
 contract LedgeriumToken is ERC20, ERC20Detailed, ERC20Burnable {
-    using SafeERC20 for ERC20;
     uint256 public constant INITIAL_SUPPLY = 15000000000000000;
     /**
     * Total during ERC-20 stage is 150 million. 
