@@ -1,5 +1,4 @@
-pragma solidity ^0.4.24;
-
+pragma solidity ^0.5.1;
 /**
 * this is the official contract deployed for XLG token 
 * all code is pulled from the open-zeplin github and then flattened into one file. 
@@ -93,7 +92,6 @@ interface IERC20 {
 
 /**
  * @title Standard ERC20 token
- *
  * @dev Implementation of the basic standard token.
  * https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md
  * Originally based on code by FirstBlood: https://github.com/Firstbloodio/token/blob/master/smart_contract/FirstBloodToken.sol
@@ -109,6 +107,36 @@ contract ERC20 is IERC20 {
     mapping (address => mapping (address => uint256)) private _allowed;
 
     uint256 private _totalSupply;
+    string private _name;
+    string private _symbol;
+    uint8 private _decimals;
+
+    constructor (string memory name, string memory symbol, uint8 decimals) public {
+        _name = name;
+        _symbol = symbol;
+        _decimals = decimals;
+    }
+
+    /**
+     * @return the name of the token.
+     */
+    function name() public view returns (string memory) {
+        return _name;
+    }
+
+    /**
+     * @return the symbol of the token.
+     */
+    function symbol() public view returns (string memory) {
+        return _symbol;
+    }
+
+    /**
+     * @return the number of decimals of the token.
+     */
+    function decimals() public view returns (uint8) {
+        return _decimals;
+    }
 
     /**
     * @dev Total number of tokens in existence
@@ -144,6 +172,22 @@ contract ERC20 is IERC20 {
     function transfer(address to, uint256 value) public returns (bool) {
         _transfer(msg.sender, to, value);
         return true;
+    }
+
+    /**
+    * @dev Token that can be irreversibly burned (destroyed).
+    */
+    function burn(uint256 value) public {
+        _burn(msg.sender, value);
+    }
+
+    /**
+     * @dev Burns a specific amount of tokens from the target address and decrements allowance
+     * @param from address The address which you want to send tokens from
+     * @param value uint256 The amount of token to be burned
+     */
+    function burnFrom(address from, uint256 value) public {
+        _burnFrom(from, value);
     }
 
     /**
@@ -270,67 +314,8 @@ contract ERC20 is IERC20 {
         _burn(account, value);
         emit Approval(account, msg.sender, _allowed[account][msg.sender]);
     }
-}
-/**
- * @title Burnable Token
- * @dev Token that can be irreversibly burned (destroyed).
- */
-contract ERC20Burnable is ERC20 {
-    /**
-     * @dev Burns a specific amount of tokens.
-     * @param value The amount of token to be burned.
-     */
-    function burn(uint256 value) public {
-        _burn(msg.sender, value);
-    }
 
-    /**
-     * @dev Burns a specific amount of tokens from the target address and decrements allowance
-     * @param from address The address which you want to send tokens from
-     * @param value uint256 The amount of token to be burned
-     */
-    function burnFrom(address from, uint256 value) public {
-        _burnFrom(from, value);
-    }
-}
 
-/**
- * @title ERC20Detailed token
- * @dev The decimals are only for visualization purposes.
- * All the operations are done using the smallest and indivisible token unit,
- * just as on Ethereum all the operations are done in wei.
- */
-contract ERC20Detailed is IERC20 {
-    string private _name;
-    string private _symbol;
-    uint8 private _decimals;
-
-    constructor (string name, string symbol, uint8 decimals) public {
-        _name = name;
-        _symbol = symbol;
-        _decimals = decimals;
-    }
-
-    /**
-     * @return the name of the token.
-     */
-    function name() public view returns (string) {
-        return _name;
-    }
-
-    /**
-     * @return the symbol of the token.
-     */
-    function symbol() public view returns (string) {
-        return _symbol;
-    }
-
-    /**
-     * @return the number of decimals of the token.
-     */
-    function decimals() public view returns (uint8) {
-        return _decimals;
-    }
 }
 
 /** Below this is the actual token deploymet code **/
@@ -341,8 +326,8 @@ contract ERC20Detailed is IERC20 {
  * Note they can later distribute these tokens as they wish using `transfer` and other
  * `ERC20` functions.
  */
-contract LedgeriumToken is ERC20, ERC20Detailed, ERC20Burnable {
-    uint256 public constant INITIAL_SUPPLY = 15000000000000000;
+contract LedgeriumToken is ERC20 {
+    uint256 public constant INITIAL_SUPPLY = 20000000000000000;
     /**
     * Total during ERC-20 stage is 150 million. 
     */
@@ -350,7 +335,7 @@ contract LedgeriumToken is ERC20, ERC20Detailed, ERC20Burnable {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("Ledgerium", "XLG", 8) {
+    constructor () public ERC20("Ledgerium", "XLG", 8) {
         _mint(msg.sender, INITIAL_SUPPLY);
     }
 }
