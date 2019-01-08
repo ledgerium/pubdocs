@@ -329,7 +329,7 @@ contract ERC20 is IERC20 {
 contract LedgeriumToken is ERC20 {
     uint256 public constant INITIAL_SUPPLY = 20000000000000000;
     /**
-    * Total during ERC-20 stage is 150 million. 
+    * Total during ERC-20 stage is 200 million. 
     */
 
     /**
