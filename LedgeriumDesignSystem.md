@@ -10,19 +10,19 @@ Ledgerium design system is a collection of reusable components, guided by clear 
 
 ### Gold Logo
 
-| Logo        | Logo Name           |
-| :-------------: |:-------------:|
-| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logo_gold.svg "#Ledgerium_logo_gold")    | Logo Gold | 
-| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logosquare_gold.svg "#Ledgerium_logosquare_gold")    | Logo Square Gold | 
-| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_gold.svg "#Ledgerium_logohorizontal_gold")    | Logo Horizontal Gold | 
+| Logo        | Logo Name           | Where to find  |
+| :-------------: |:-------------:|:-------------:|
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logo_gold.svg "#Ledgerium_logo_gold")    | Logo Gold | Folder: DesignSystemAssets | 
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logosquare_gold.svg "#Ledgerium_logosquare_gold")    | Logo Square Gold | Folder: DesignSystemAssets | 
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_gold.svg "#Ledgerium_logohorizontal_gold")    | Logo Horizontal Gold | Folder: DesignSystemAssets | 
 
 ### Blue Logo
 
-| Logo        | Logo Name           |
-| :-------------: |:-------------:|
-| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logo_blue.svg "#Ledgerium_logo_blue")    | Logo Blue | 
-| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logosquare_blue.svg "#Ledgerium_logosquare_blue")    | Logo Square Blue | 
-| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_blue.svg "#Ledgerium_logohorizontal_blue")    | Logo Horizontal Blue | 
+| Logo        | Logo Name           | Where to find  |
+| :-------------: |:-------------:|:-------------:|
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logo_blue.svg "#Ledgerium_logo_blue")    | Logo Blue | Folder: DesignSystemAssets |
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logosquare_blue.svg "#Ledgerium_logosquare_blue")    | Logo Square Blue | Folder: DesignSystemAssets |
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_blue.svg "#Ledgerium_logohorizontal_blue")    | Logo Horizontal Blue | Folder: DesignSystemAssets |
 
 
 
