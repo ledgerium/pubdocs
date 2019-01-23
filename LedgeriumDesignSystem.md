@@ -6,6 +6,27 @@ Ledgerium design system is a collection of reusable components, guided by clear 
 ##
 
 
+## 🏆 Logo
+
+### Gold Logo
+
+| Logo        | Logo Name           |
+| :-------------: |:-------------:|
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logo_gold.svg "#Ledgerium_logo_gold")    | Logo Gold | 
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logosquare_gold.svg "#Ledgerium_logosquare_gold")    | Logo Square Gold | 
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_gold.svg "#Ledgerium_logohorizontal_gold")    | Logo Horizontal Gold | 
+
+### Blue Logo
+
+| Logo        | Logo Name           |
+| :-------------: |:-------------:|
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logo_blue.svg "#Ledgerium_logo_blue")    | Logo Blue | 
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logosquare_blue.svg "#Ledgerium_logosquare_blue")    | Logo Square Blue | 
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_blue.svg "#Ledgerium_logohorizontal_blue")    | Logo Horizontal Blue | 
+
+
+
+
 ## 🌈 Color
 
 ### Primary Color
@@ -23,4 +44,5 @@ Ledgerium design system is a collection of reusable components, guided by clear 
 | ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/ColorBlock/985A36.svg "#985A36")    | Brown Dark | #985A36 | Dark Logo Color |
 | ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/ColorBlock/dca576.svg "#DCA576")    | Brown Light | #DCA576 | Light Logo Color |
 
-## 🔡 Text Style
+
+
