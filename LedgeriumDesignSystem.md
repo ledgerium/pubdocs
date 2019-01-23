@@ -12,7 +12,7 @@ Ledgerium design system is a collection of reusable components, guided by clear 
 
 | Logo        | Logo Name           | Where to find  |
 | :-------------: |:-------------:|:-------------:|
-| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logo_gold.svg "#Ledgerium_logo_gold")    | Logo Gold | Folder: DesignSystemAssets/Ledgerium_logo_gold.svg | 
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logo_gold.svg "#Ledgerium_logo_gold")    | Logo Gold | Folder: https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logo_gold.svg | 
 | ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logosquare_gold.svg "#Ledgerium_logosquare_gold")    | Logo Square Gold | Folder: DesignSystemAssets/Ledgerium_logosquare_gold.svg | 
 | ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_gold.svg "#Ledgerium_logohorizontal_gold")    | Logo Horizontal Gold | Folder: DesignSystemAssets/Ledgerium_logohorizontal_gold.svg | 
 
