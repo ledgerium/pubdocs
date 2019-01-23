@@ -5,5 +5,4 @@ Ledgerium design system is a collection of reusable components, guided by clear 
 ## 🌈 Color
 
 ##### Primary
-Inline-style: 
-![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/ColorBlock/1F3160.svg "Logo Title Text 1")
+![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/ColorBlock/1F3160.svg "#1F3160")
