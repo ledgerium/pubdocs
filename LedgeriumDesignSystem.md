@@ -4,4 +4,6 @@ Ledgerium design system is a collection of reusable components, guided by clear 
 
 ## 🌈 Color
 
-⋅⋅* Unordered sub-list. 
+##### Primary
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
