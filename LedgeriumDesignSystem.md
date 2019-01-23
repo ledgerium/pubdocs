@@ -4,6 +4,6 @@ Ledgerium design system is a collection of reusable components, guided by clear 
 
 ## 🌈 Color
 
-##### Primary
+### Primary
 
 ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/ColorBlock/1F3160.svg "#1F3160") Blue Dark
