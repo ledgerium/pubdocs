@@ -24,6 +24,19 @@ Ledgerium design system is a collection of reusable components, guided by clear 
 | ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logosquare_blue.svg "#Ledgerium_logosquare_blue")    | Logo Square Blue | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logosquare_blue.svg |
 | ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_blue.svg "#Ledgerium_logohorizontal_blue")    | Logo Horizontal Blue | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_blue.svg |
 
+### Token Logo
+
+| Logo        | Logo Name           | Where to find  |
+| :-------------: |:-------------:|:-------------|
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Token/Ledgerium_token_gold.svg "#Ledgerium_token_gold")    | Token Gold | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Token/Ledgerium_token_gold.svg |
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Token/Ledgerium_token_blue.svg "#Ledgerium_token_blue")    | Token Blue | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logosquare_blue.svg |
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Token/Ledgerium_token_square_blue.svg "#Ledgerium_token_square_blue")    | Token Square Blue | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_blue.svg |
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Token/Ledgerium_token_square_black.svg "#Ledgerium_token_square_black")    | Token Square Black | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_blue.svg |
+
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Token/Ledgerium_token_square_white.svg "#Ledgerium_token_square_white")    | Token Square White | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_blue.svg |
+
+
+
 
 
 
