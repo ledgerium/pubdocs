@@ -22,5 +22,5 @@ Ledgerium design system is a collection of reusable components, guided by clear 
 | :-------------: |:-------------:|:-----:|:-----:|
 | ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/ColorBlock/985A36.svg "#985A36")    | Brown Dark | #985A36 | Dark Logo Color |
 | ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/ColorBlock/dca576.svg "#DCA576")    | Brown Light | #DCA576 | Light Logo Color |
----
+
 ## 🔡 Text Style
