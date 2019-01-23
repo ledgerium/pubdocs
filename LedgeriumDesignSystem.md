@@ -7,6 +7,6 @@ Ledgerium design system is a collection of reusable components, guided by clear 
 ### Primary
 
 | Color Block        | Color Name           | Color Code  | Where to use  |
-| ------------- |:-------------:| -----:|-----:|
+| :-------------: |:-------------:|:-----:|:-----:|
 | ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/ColorBlock/1F3160.svg "#1F3160")    | Blue Dark | #1F3160 | Button Background |
 
