@@ -1,85 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="427px" height="384px" viewBox="0 0 427 384" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>Group</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Color-palette" transform="translate(-313.000000, -1772.000000)">
-            <g id="Group" transform="translate(313.000000, 1769.000000)">
-                <text id="Bold-Heading" font-family="Roboto-Bold, Roboto" font-size="24" font-weight="bold" fill="#000000">
-                    <tspan x="12" y="72">Bold Heading</tspan>
-                </text>
-                <text id="Regular-Heading" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="12" y="131">Regular Heading </tspan>
-                </text>
-                <text id="Bold-Sub-heading" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" fill="#000000">
-                    <tspan x="12" y="186">Bold Sub-heading </tspan>
-                </text>
-                <text id="Table-Heading" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="12" y="238">Table Heading </tspan>
-                </text>
-                <text id="Input-Field-Prompt" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#B7BAC3">
-                    <tspan x="12" y="384">Input Field Prompt </tspan>
-                </text>
-                <text id="Table-Content" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
-                    <tspan x="12" y="288">Table Content </tspan>
-                </text>
-                <text id="Email-Body-Content" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
-                    <tspan x="12" y="337">Email Body Content </tspan>
-                </text>
-                <text id="24px" font-family="Roboto-Bold, Roboto" font-size="24" font-weight="bold" fill="#000000">
-                    <tspan x="240" y="72">24px</tspan>
-                </text>
-                <text id="24px" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="240" y="132">24px</tspan>
-                </text>
-                <text id="18px" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" fill="#000000">
-                    <tspan x="240" y="186">18px</tspan>
-                </text>
-                <text id="18px" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="240" y="238">18px</tspan>
-                </text>
-                <text id="16px" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
-                    <tspan x="240" y="289">16px</tspan>
-                </text>
-                <text id="14px" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
-                    <tspan x="240" y="337">14px</tspan>
-                </text>
-                <text id="12px" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#B7BAC3">
-                    <tspan x="240" y="382">12px</tspan>
-                </text>
-                <text id="1.5rem" font-family="Roboto-Bold, Roboto" font-size="24" font-weight="bold" fill="#000000">
-                    <tspan x="341" y="72">1.5rem</tspan>
-                </text>
-                <text id="1.5rem" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="341" y="132">1.5rem</tspan>
-                </text>
-                <text id="1.125rem" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" fill="#000000">
-                    <tspan x="341" y="186">1.125rem</tspan>
-                </text>
-                <text id="1.125rem" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="341" y="238">1.125rem</tspan>
-                </text>
-                <text id="Where-to-use" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="12" y="17">Where to use</tspan>
-                </text>
-                <text id="px" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="240" y="17">px</tspan>
-                </text>
-                <text id="rem" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="341" y="17">rem</tspan>
-                </text>
-                <text id="1rem" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#000000">
-                    <tspan x="341" y="289">1rem</tspan>
-                </text>
-                <text id="1rem" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
-                    <tspan x="341" y="337">1rem</tspan>
-                </text>
-                <text id="0.75rem" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#B7BAC3">
-                    <tspan x="341" y="382">0.75rem</tspan>
-                </text>
-                <path d="M0,31.1048952 L427,31.1048952" id="Path-7" stroke="#979797"></path>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 427 384" style="enable-background:new 0 0 427 384;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Roboto-Bold';}
+	.st1{font-size:24px;}
+	.st2{font-family:'Roboto-Regular';}
+	.st3{font-size:18px;}
+	.st4{fill:#B7BAC3;}
+	.st5{font-size:12px;}
+	.st6{font-size:16px;}
+	.st7{font-size:14px;}
+	.st8{fill:none;stroke:#979797;}
+</style>
+<title>Group</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Color-palette" transform="translate(-313.000000, -1772.000000)">
+		<g id="Group" transform="translate(313.000000, 1769.000000)">
+			<text transform="matrix(1 0 0 1 12 72)" class="st0 st1">Bold Heading</text>
+			<text transform="matrix(1 0 0 1 12 131)" class="st2 st1">Regular Heading</text>
+			<text transform="matrix(1 0 0 1 12 186)" class="st0 st3">Bold Sub-heading</text>
+			<text transform="matrix(1 0 0 1 12 238)" class="st2 st3">Table Heading</text>
+			<text transform="matrix(1 0 0 1 12 384)" class="st4 st2 st5">Input Field Prompt</text>
+			<text transform="matrix(1 0 0 1 12 288)" class="st2 st6">Table Content</text>
+			<text transform="matrix(1 0 0 1 12 337)" class="st2 st7">Email Body Content</text>
+			<text transform="matrix(1 0 0 1 240 72)" class="st0 st1">24px</text>
+			<text transform="matrix(1 0 0 1 240 132)" class="st2 st1">24px</text>
+			<text transform="matrix(1 0 0 1 240 186)" class="st0 st3">18px</text>
+			<text transform="matrix(1 0 0 1 240 238)" class="st2 st3">18px</text>
+			<text transform="matrix(1 0 0 1 240 289)" class="st2 st6">16px</text>
+			<text transform="matrix(1 0 0 1 240 337)" class="st2 st7">14px</text>
+			<text transform="matrix(1 0 0 1 240 382)" class="st4 st2 st5">12px</text>
+			<text transform="matrix(1 0 0 1 341 72)" class="st0 st1">1.5rem</text>
+			<text transform="matrix(1 0 0 1 341 132)" class="st2 st1">1.5rem</text>
+			<text transform="matrix(1 0 0 1 341 186)" class="st0 st3">1.125rem</text>
+			<text transform="matrix(1 0 0 1 341 238)" class="st2 st3">1.125rem</text>
+			<text transform="matrix(1 0 0 1 12 17)" class="st2 st3">Where to use</text>
+			<text transform="matrix(1 0 0 1 240 17)" class="st2 st3">px</text>
+			<text transform="matrix(1 0 0 1 341 17)" class="st2 st3">rem</text>
+			<text transform="matrix(1 0 0 1 341 289)" class="st2 st6">1rem</text>
+			<text transform="matrix(1 0 0 1 341 337)" class="st2 st7">0.875rem</text>
+			<text transform="matrix(1 0 0 1 341 382)" class="st4 st2 st5">0.75rem</text>
+			<path id="Path-7" class="st8" d="M0,31.1h427"/>
+		</g>
+	</g>
+</g>
 </svg>
