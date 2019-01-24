@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="143px" height="354px" viewBox="0 0 143 354" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Thin Thin Italic Lig</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Branding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Roboto-Thin, Roboto" font-size="24" font-style="condensed" font-weight="300">
+        <g id="A3" transform="translate(-67.000000, -83.000000)" fill="#1F3160">
+            <text id="Thin-Thin-Italic-Lig">
+                <tspan x="67" y="101">Thin</tspan>
+                <tspan x="112.5625" y="101" font-family="Roboto-Regular, Roboto" font-weight="normal"></tspan>
+                <tspan x="67" y="131.4" font-family="Roboto-ThinItalic, Roboto" font-style="italic">Thin Italic</tspan>
+                <tspan x="67" y="161.8" font-family="Roboto-Light, Roboto">Light</tspan>
+                <tspan x="119.21875" y="161.8" font-family="Roboto-Regular, Roboto" font-weight="normal"></tspan>
+                <tspan x="67" y="192.2" font-family="Roboto-LightItalic, Roboto" font-style="italic">Light Italic</tspan>
+                <tspan x="67" y="222.6" font-family="Roboto-Regular, Roboto" font-weight="normal">Regular</tspan>
+                <tspan x="67" y="253" font-family="Roboto-Italic, Roboto" font-style="italic" font-weight="normal">Regular Italic</tspan>
+                <tspan x="67" y="283.400001" font-family="Roboto-Medium, Roboto" font-weight="400">Medium</tspan>
+                <tspan x="67" y="313.800001" font-family="Roboto-MediumItalic, Roboto" font-style="italic" font-weight="500">Medium Italic</tspan>
+                <tspan x="67" y="344.200001" font-family="Roboto-Bold, Roboto" font-weight="bold">Bold</tspan>
+                <tspan x="67" y="374.600001" font-family="Roboto-BlackItalic, Roboto" font-style="italic" font-weight="700">Bold Italic</tspan>
+                <tspan x="67" y="405.000001" font-family="Roboto-Black, Roboto" font-weight="700">Black</tspan>
+                <tspan x="127.410156" y="405.000001" font-family="Roboto-Regular, Roboto" font-weight="normal"></tspan>
+                <tspan x="67" y="435.400001" font-family="Roboto-BlackItalic, Roboto" font-style="italic" font-weight="700">Black Italic</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
