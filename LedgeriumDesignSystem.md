@@ -62,5 +62,6 @@ Ledgerium design system is a collection of reusable components, guided by clear 
 
 ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Font/font_roboto.svg "font_roboto") 
 
+---
 ### Roboto Font Usage
 ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Font/font_option.svg "font_option") 
