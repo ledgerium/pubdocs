@@ -34,11 +34,11 @@ Ledgerium design system is a collection of reusable components, guided by clear 
 
 ### Luca Logo
 
-|                                                                         Logo                                                                          |     Logo Name     | Where to find                                                                                         |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------: | :---------------------------------------------------------------------------------------------------- |
-|                   ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Luca_logo.png "#luca_logo")                    |     Luca Logo     | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Luca_logo.png                |
-|            ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Luca_logo_Square.png "#luca_logo_square")             |    Token Blue     | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Luca_logo_Square.png         |
-| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Token/Ledgerium_token_square_blue.svg "#Ledgerium_token_square_blue") | Token Square Blue | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_blue.svg |
+|                                                              Logo                                                              |      Logo Name       | Where to find                                                                                         |
+| :----------------------------------------------------------------------------------------------------------------------------: | :------------------: | :---------------------------------------------------------------------------------------------------- |
+|        ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Luca_logo.png "#luca_logo")        |    Luca Logo PNG     | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Luca_logo.png                |
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Luca_logo_Square.png "#luca_logo_square") | Luca Logo Sqaure PNG | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Luca_logo_Square.png         |
+|      ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Luca_logo.svg "#luca_logo_svg")      |    Luca Logo SVG     | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_blue.svg |
 
 ## 🌈 Color
 
