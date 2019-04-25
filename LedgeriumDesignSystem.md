@@ -40,6 +40,17 @@ Ledgerium design system is a collection of reusable components, guided by clear 
 | ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Luca_logo_Square.png "#luca_logo_square") | Luca Logo Sqaure PNG | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Luca_logo_Square.png         |
 |      ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Luca_logo.svg "#luca_logo_svg")      |    Luca Logo SVG     | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Ledgerium_logohorizontal_blue.svg |
 
+### Blockledger Logo
+
+|                                                                         Logo                                                                         |            Logo Name            | Where to find                                                                                            |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------: | :------------------------------------------------------------------------------------------------------- |
+|            ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Blockledger_logo.png "#blockledger_logo")            |      Blockledger Logo PNG       | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/blockledger_logo.png            |
+|            ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Blockledger_logo.svg "#blockledger_logo")            |      Blockledger Logo SVG       | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/blockledger_logo.svg            |
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Blockledger_logo_horizontal.png "#Blockledger_logo_horizontal") | Blockledger Logo Horizontal PNG | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Blockledger_logo_horizontal.png |
+| ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Blockledger_logo_horizontal.svg "#Blockledger_logo_horizontal") | Blockledger Logo Horizontal SVG | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Blockledger_logo_horizontal.svg |
+|       ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Blockledger_with_Luca.png "#Blockledger_with_Luca")       |    Blockledger with Luca PNG    | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Blockledger_with_Luca.png       |
+|       ![alt text](https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Blockledger_with_Luca.svg "#Blockledger_with_Luca")       |    Blockledger with Luca SVG    | https://github.com/ledgerium/pubdocs/blob/master/DesignSystemAssets/Logo/Blockledger_with_Luca.svg       |
+
 ## 🌈 Color
 
 ### Primary Color
